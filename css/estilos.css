@@ -534,11 +534,5 @@ input::-webkit-input-placeholder {
   }
 }
 
-@media screen and (min-width: 520px) {
-  .lasCards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
+
 
