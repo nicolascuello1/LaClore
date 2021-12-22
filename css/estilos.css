@@ -1,3 +1,7 @@
+body {
+  background-color: #9FD5D7;
+}
+
 /*--NAV--*/
 
 nav {
@@ -268,6 +272,88 @@ nav .icon-burger .line {
     padding: 8px;
 }
 
+
+/*---- SECCIÓN PRODUCTOS ---*/
+
+.losbotones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 25vh;
+}
+
+.boton {
+    text-decoration: none;
+    padding: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: #F9C56A;
+    border-radius: 6px;
+    border: 2px solid #616160;
+    transition: all 300ms;
+    margin-top: 3vh;
+}
+
+@media screen and (max-width: 845px) {
+    .boton {
+      text-decoration: none;
+      padding: 22px;
+      font-weight: 600;
+      font-size: 20px;
+      color: white;
+      background-color: black;
+      border-radius: 6px;
+      border: 2px solid #0016b0;
+      transition: all 300ms
+    }
+}
+
+@media screen and (max-width: 592px) {
+    .boton {
+        text-decoration: none;
+      padding: 15px;
+      font-weight: 600;
+      font-size: 20px;
+      color: white;
+      background-color: black;
+      border-radius: 6px;
+      border: 2px solid #0016b0;
+      transition: all 300ms;
+      margin-bottom: 3vh;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .boton {
+        text-decoration: none;
+      padding: 10px;
+      font-weight: 600;
+      font-size: 20px;
+      color: white;
+      background-color: black;
+      border-radius: 6px;
+      border: 2px solid #0016b0;
+      transition: all 300ms;
+      margin-bottom: 3vh;
+    }
+}
+
+
+.boton:hover{
+  background: #9FD5D7;
+  transition: all 300ms;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px 0px black;
+}
+
+.boton:activate{
+  background: black;
+  transition: all 100ms;
+  color: black;
+  transform: scale(0.9);
+}
+
 /*---- SECCIÓN CONTACTO ---*/
 
 .contact {
@@ -370,4 +456,32 @@ input::-webkit-input-placeholder {
 
 #almail {
   opacity: 0;
+}
+
+.envioMasTelefono {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*---CONTAINER CARDS---*/
+
+.container-cards {
+  margin-top: 25vh;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/*--- PARA TODAS LAS CARDS DE PRODUCTOS ---*/
+
+.card {
+  margin-top: 3vh;
+}
+
+.lasCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
