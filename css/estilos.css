@@ -498,15 +498,6 @@ input::-webkit-input-placeholder {
   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 1022px) {
-  .lasCards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 20%;
-  }
-}
-
 
 
 
