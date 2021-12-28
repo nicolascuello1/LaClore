@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<link rel="shortcut icon" href="img/pestanaclore.jpg">
-	<title>LA CLORE | INICIO</title>
+	<title>LA CLORE | PREG. FRECUENTES</title>
 </head>
 <body>
 
@@ -17,9 +17,9 @@
     	  <input id="nav-toggle" type="checkbox">
     	  <div class="logo">La<strong>Clore!</strong></div>
     	  <ul class="links">
+    	    <li><a href="index.html">Inicio</a></li>
     	    <li><a href="productos.html">Productos</a></li>
     	    <li><a href="servicios.html">Servicios</a></li>
-    	    <li><a href="preguntasfrecuentes.html">Preg. Frecuentes</a></li>
     	    <li><a href="contacto.html">Contacto</a></li>
     	  </ul>
     	  <label for="nav-toggle" class="icon-burger">
@@ -36,61 +36,71 @@
   		<img src="img/titulolaclore.PNG" alt="titulo" class="tituloLaClore">
   	</div>
 
-  	<!--- Carousel de imágenes ---->
+  	<!---- Imagen para responder --->
 
-  	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  		<ol class="carousel-indicators">
-    		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-  		</ol>
-  	<div class="carousel-inner">
-    	<div class="carousel-item active">
-      		<img class="d-block w-100" src="img/carousel1.jpg" alt="First slide">
-    	</div>
-    	<div class="carousel-item">
-      		<img class="d-block w-100" src="img/carousel2.jpg" alt="Second slide">
-    	</div>
-  	</div>
-  		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    		<span class="sr-only">Previous</span>
-  		</a>
-  		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-    		<span class="sr-only">Next</span>
-  		</a>
+	<div class="envioMasTelefono">
+        <h1>LaClore responde!</h1>
+    </div>
+    <div class="envioMasTelefono">
+        <img src="img/pensando.png" class="imagenfooter">
+        <img src="img/pregunta.png" class="imagenfooter">
+    </div>
+
+  	<!------- Preguntas Frecuentes ----->
+
+  	<div class="preguntasFrecuentes">
+  		<details>
+   			<summary><b>¿CÓMO PUEDO ABONAR MI COMPRA?</b></summary>
+   			<p class="desgloce">- Efectivo con el 10% de descuento en el momento de la entrega (únicamente en Villa Carlos Paz)</p>
+			<p class="desgloce">- Depósito o transferencia bancaria (10% de descuento).
+			<p class="desgloce">- Todas las tarjetas de débito.
+			<p class="desgloce">- Tarjetas de crédito bancarizadas (12 cuotas con el 15% de recargo).
+			<p class="desgloce">- Tarjetas de crédito Visa, Mastercard, Naranja, Cabal, Nativa, Cencosud. 
+			<p class="desgloce">- 1 pago sin interés o 3 pagos 15% recargo.</p>
+		</details>
+	</div>
+	<div class="preguntasFrecuentes">
+  		<details>
+   			<summary><b>¿CUÁL ES EL COSTO DEL ENVÍO?</b></summary>
+   			<p class="desgloce">- En Villa Carlos Paz el envío es sin cargo a partir de los $2000.</p>
+			<p class="desgloce">- Envíos al resto del país: el costo del envío será calculado en base al total de la compra y la ubicación.</p>
+		</details>
+	</div>
+	<div class="preguntasFrecuentes">
+		<details>
+   			<summary><b>¿CUÁL ES EL TIEMPO DEL ENVÍO?</b></summary>
+   			<p class="desgloce">- Si al momento de la compra hay disponibilidad del producto, pueden tener una demora de 48hs hábiles en ser despachados.</p>
+   			<p class="desgloce">- Entre 5 a 10 dias hábiles en llegar a destino, dependiendo de la demora del correo.</p>
+			<p class="desgloce">- En caso de que sea dentro de la ciudad lo enviamos dentro de 48 horas hábiles al momento de la compra.</p>
+		</details>
+	</div>
+	<div class="preguntasFrecuentes">
+		<details>
+   			<summary><b>¿PUEDO REALIZAR UNA COMPRA Y PASARLA A RETIRAR?</b></summary>
+   			<p class="desgloce">- Si. Siempre que sea dentro de los horarios comerciales.</p>
+			<p class="desgloce">- Lunes a Sábados de 08:30 – 13:30 y 17:00 – 21:00hs.</p>
+			<p class="desgloce">- Domingo de 10:00 - 13:00</p>
+		</details>
 	</div>
 
-  	<!--- Imagenes que redireccionan a una sección --->
 
-  	<div class="contenedor">
-  		<img src="img/carouselclore2.jpg" />
-  		<div class="centrado">Centrado</div>
-	</div>
-  	<div>
-  		<img src="img/carouselclore2.jpg" class="img-fluid" alt="Responsive image">
-  	</div>
-  	<div>
-  		<img src="img/carouselclore2.jpg" class="img-fluid" alt="Responsive image">
-  	</div>
+
+	
 
 
 
-  	<!--- Medios de Pago --->
 
-  	<div class="mediosDePago">
-  		<img src="img/visa.png" class="imagenfooter">
-  		<img src="img/mastercard.png" class="imagenfooter">
-  		<img src="img/efectivo.png" class="imagenfooter">
-  		<img src="img/mercadopago3.png" class="imagenfooter">
-  		<img src="img/tarjetadecredito.png" class="imagenfooter">
-  	</div>
 
-  	<!--- Ubicación IFRAME MAPS --->
 
-  	<section class="ubicacionLaClore">
-  		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108954.73157078624!2d-64.41327210447392!3d-31.418661855716916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d67c99228b36f%3A0xf8d677506837b685!2sLa%20Clorera%20de%20la%20Villa!5e0!3m2!1ses-419!2sar!4v1640030398474!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="mapaClore"></iframe>
-  	</section>
+
+
+
+
+
+
+
+
+
 
   	<!------ Comienzo de footer -------->
 

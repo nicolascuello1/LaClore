@@ -498,8 +498,43 @@ input::-webkit-input-placeholder {
   justify-content: space-evenly;
 }
 
+/*---- IMAGEN QUE REDIRECCIONA ----*/
 
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
 
+.texto-encima {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.preguntasFrecuentes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5vh;
+}
 
+summary {
+  color: #72B4B4; 
+}
+
+.desgloce {
+  color: #616160;
+}
+
+h1 {
+  color: #616160;
+}
