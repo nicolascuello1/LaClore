@@ -285,9 +285,8 @@ nav .icon-burger .line {
 .losBotones {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 25vh;
-  margin-left: 100px;
 }
 
 .boton {
@@ -303,6 +302,14 @@ nav .icon-burger .line {
     margin-top: 3vh;
     width: 250px;
     height: 125px;
+}
+
+@media screen and (max-width: 828px) {
+  .losBotones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
 }
 
 @media screen and (max-width: 845px) {
